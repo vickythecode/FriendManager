@@ -1,0 +1,87 @@
+/* FriendSearch.css */
+.friend-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .friend-search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .friend-search-error {
+    color: #e74c3c;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .friend-search-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friend-search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .friend-search-item:last-child {
+    border-bottom: none;
+  }
+  
+  .friend-search-button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .friend-search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mutual-friends-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .mutual-friends-list {
+    list-style-type: none;
+    padding: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mutual-friend-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mutual-friend-item:last-child {
+    border-bottom: none;
+  }
+  
